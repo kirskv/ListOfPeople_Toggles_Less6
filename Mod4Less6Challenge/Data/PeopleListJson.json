@@ -1,0 +1,32 @@
+[
+{
+    "name":"Petr Ivanov",
+    "adress":"Moscow, Tverskay, 1",
+    "company":"Gazprom",
+    "y":10
+},
+{
+    "name":"Serge Fucker",
+    "adress":"Moscow, Kremline, 1",
+    "company":"Government",
+    "y":40
+},
+{
+    "name":"Sasha Belkin",
+    "adress":"Tver, Boat str, 11",
+    "company":"TverVagon",
+    "y":3
+},
+{
+    "name":"Gustav Debilin",
+    "adress":"Muha, Nowhere str, 01",
+    "company":"Fool's and Co.",
+    "y":1000
+},
+{
+    "name":"James Bond",
+    "adress":"Washington D.C.",
+    "company":"CIA",
+    "y":77
+}
+]

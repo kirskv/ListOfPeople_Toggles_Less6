@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ACE0C70C-2E1F-4874-86CA-1379AD43F027"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D4C1205-5D6F-4037-8861-B0276F5CECDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mod4Less6Challenge/ViewModel/PeopleListModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D4C1205-5D6F-4037-8861-B0276F5CECDA - 58ebb1e532031aee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mod4Less6Challenge.DataRetrival.__allocating_init() -&gt; Mod4Less6Challenge.DataRetrival"
+                  moduleName = "Mod4Less6Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirillsokolov/Desktop/Kirill/Developer/Modul%204/Mod4Less6Challenge/Mod4Less6Challenge/ViewModel/PeopleListModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "0D4C1205-5D6F-4037-8861-B0276F5CECDA - 854884d850f7aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mod4Less6Challenge.DataRetrival.init() -&gt; Mod4Less6Challenge.DataRetrival"
+                  moduleName = "Mod4Less6Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirillsokolov/Desktop/Kirill/Developer/Modul%204/Mod4Less6Challenge/Mod4Less6Challenge/ViewModel/PeopleListModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
