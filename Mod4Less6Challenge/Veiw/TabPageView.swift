@@ -17,7 +17,7 @@ struct TabPageView: View {
                     Text("tab1")
             }
             }
-               Text("Hello, World")
+            ToggleView()
                 .tabItem {
                     VStack {
                         Image(systemName: "pencil")

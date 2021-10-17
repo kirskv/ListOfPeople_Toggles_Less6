@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A852DF80271B85F300C61630 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852DF7F271B85F300C61630 /* ToggleView.swift */; };
 		A85C7284271B822600E12F06 /* TabPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C7283271B822500E12F06 /* TabPageView.swift */; };
 		A8833C3E2719CC7D0057D4BF /* Mod4Less6ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8833C3D2719CC7D0057D4BF /* Mod4Less6ChallengeApp.swift */; };
 		A8833C402719CC7D0057D4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8833C3F2719CC7D0057D4BF /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A852DF7F271B85F300C61630 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		A85C7283271B822500E12F06 /* TabPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageView.swift; sourceTree = "<group>"; };
 		A8833C3A2719CC7D0057D4BF /* Mod4Less6Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mod4Less6Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8833C3D2719CC7D0057D4BF /* Mod4Less6ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod4Less6ChallengeApp.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				A8833C3F2719CC7D0057D4BF /* ContentView.swift */,
 				A85C7283271B822500E12F06 /* TabPageView.swift */,
+				A852DF7F271B85F300C61630 /* ToggleView.swift */,
 			);
 			path = Veiw;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				A85C7284271B822600E12F06 /* TabPageView.swift in Sources */,
 				A8833C552719D6740057D4BF /* PeopleListModel.swift in Sources */,
 				A8833C3E2719CC7D0057D4BF /* Mod4Less6ChallengeApp.swift in Sources */,
+				A852DF80271B85F300C61630 /* ToggleView.swift in Sources */,
 				A8833C572719D6D30057D4BF /* PeopleList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
