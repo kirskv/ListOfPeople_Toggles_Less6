@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct ToggleView: View {
-    @State var nameIsOn = true
-    @State var adressIsOn = true
-    @State var companyIsOn = true
-    @State var yearsIsOn = true
+    
+    
+    
+    @EnvironmentObject var model:DataRetrival
+   
     var body: some View {
+        
         VStack {
             Text("Display preferences")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding(.vertical, 30.0)
-            Toggle("Show name: ", isOn: $nameIsOn)
+            Toggle("Show name: ", isOn: $model.nameIsOn)
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Toggle("Show adress: ", isOn: $adressIsOn)
+            Toggle("Show adress: ", isOn: $model.adressIsOn)
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Toggle("Show company: ", isOn: $companyIsOn)
+            Toggle("Show company: ", isOn: $model.companyIsOn)
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Toggle("Show Years of experience: ", isOn: $yearsIsOn)
+            Toggle("Show Years of experience: ", isOn: $model.yearsOfExp)
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             Spacer()
         }
@@ -36,5 +38,6 @@ struct ToggleView: View {
 struct ToggleView_Previews: PreviewProvider {
     static var previews: some View {
         ToggleView()
+            .environmentObject(DataRetrival())
     }
 }

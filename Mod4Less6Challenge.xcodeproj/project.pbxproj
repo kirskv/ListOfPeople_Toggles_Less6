@@ -85,8 +85,8 @@
 		A8833C4C2719CD380057D4BF /* Veiw */ = {
 			isa = PBXGroup;
 			children = (
-				A8833C3F2719CC7D0057D4BF /* ContentView.swift */,
 				A85C7283271B822500E12F06 /* TabPageView.swift */,
+				A8833C3F2719CC7D0057D4BF /* ContentView.swift */,
 				A852DF7F271B85F300C61630 /* ToggleView.swift */,
 			);
 			path = Veiw;

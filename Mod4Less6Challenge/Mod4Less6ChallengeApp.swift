@@ -11,7 +11,9 @@ import SwiftUI
 struct Mod4Less6ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabPageView()
+                .environmentObject(DataRetrival())  
+            
         }
     }
 }

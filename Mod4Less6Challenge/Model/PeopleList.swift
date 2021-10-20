@@ -6,12 +6,18 @@
 //
 
 import Foundation
-class PeopleList: Identifiable, Decodable {
+class PeopleList: Identifiable, Decodable, ObservableObject {
+    
+    
     var id:UUID?
     var name:String = ""
     var adress:String = ""
     var company:String = ""
-    var y:Int
+    var y:Int = 0
 
 }
- 
+
+class TogglesSw: ObservableObject {
+   
+}
+

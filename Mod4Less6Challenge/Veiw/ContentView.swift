@@ -8,26 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-   @ObservedObject var model = DataRetrival()
-    var toggles = ToggleView()
+   
+    @EnvironmentObject var model:DataRetrival
+    
+  
+    var tGS = TogglesSw()
+    
     var body: some View {
+       
+        
         List(model.peop) {r in
+           
             VStack(alignment: .leading) {
-                if toggles.nameIsOn == true {
+                if model.nameIsOn {
                     Text(r.name)
                 }
-                if toggles.adressIsOn == true {
+                if model.adressIsOn {
                     Text(r.adress)
                 }
-                if toggles.companyIsOn == true {
+                if model.companyIsOn == true {
                     Text(r.company)
                 }
-                if toggles.yearsIsOn == true {
+                if model.yearsOfExp == true {
                     Text("Years Of Experience: " + String(r.y))
-                }
                 
                 }
-                
+                    
+                }
             }
         }
     }
@@ -36,5 +43,6 @@ struct ContentView: View {
 struct ContntView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DataRetrival())
     }
 }

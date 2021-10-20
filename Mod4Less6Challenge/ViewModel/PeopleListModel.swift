@@ -11,6 +11,12 @@ class DataRetrival:ObservableObject {
     
    @Published var peop = [PeopleList]()
     
+    @Published var nameIsOn = true
+    @Published var adressIsOn = true
+    @Published var companyIsOn = true
+    @Published var yearsOfExp = true
+    
+    
     init() {
         
         let pathString = Bundle.main.path(forResource: "PeopleListJson", ofType: "json")

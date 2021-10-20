@@ -9,26 +9,29 @@ import SwiftUI
 
 struct TabPageView: View {
     var body: some View {
+       
         TabView {
             ContentView()
             .tabItem {
                 VStack {
-                    Image(systemName: "star")
+                    Image(systemName: "list.bullet")
                     Text("tab1")
             }
             }
             ToggleView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "pencil")
+                        Image(systemName: "gearshape")
                         Text("tab2")
                 }
                 }
         }
+        
     }
 }
 struct TabPageView_Previews: PreviewProvider {
     static var previews: some View {
         TabPageView()
+            .environmentObject(DataRetrival())
     }
 }
